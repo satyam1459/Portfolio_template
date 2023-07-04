@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio using HTML and CSS</title>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="logo">UI Portfolio</div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#bio">About</a>
+          <a href="#qualifications">Qualifications</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <a href="mailto:satyamjaiswal91@gmail.com">Hire me</a>
+          <i class="fa fa-search"></i>
+          <i class="fa fa-moon-o"></i>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="left">
+          <h2>Hi, I'm Satyam Jaiswal</h2>
+          <h1><span class="first">W</span>eb <span class="first">D</span>eveloper</h1>
+          <p>
+            I am an enthusiastic engineering student. My areas of interest
+            encompass a wide range of disciplines, including DSA, Java, Spring
+            Boot, HTML, CSS and MySQL.
+          </p>
+          <br /><br />
+          <div>
+            <a href="mailto:satyamjaiswal91@gmail.com" id="hire">Hire Me</a>
+            <a href="Satyam_Jaiswal_Resume.pdf" id="myResume" download>Download CV</a>
+          </div>
+        </div>
+        <div class="right">
+          <img id="mypic" src="img/mypic.jpg" alt="Satyam" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="bio">
+        <div class="leftbio">
+          <img
+            src="img/roberto-cortese-ejhjSZKTeeg-unsplash.jpg"
+            alt=""
+            width="200px"
+          />
+        </div>
+        <div class="rightbio">
+          <div>
+            <p>About Me</p>
+            <h1>Web Developer</h1>
+            <p>
+              I am an enthusiastic engineering student, driven by curiosity and
+              a passion for learning. With a strong focus on Data Structures and
+              Algorithms (DSA), Java, Spring Boot, MySQL, HTML, and CSS, I
+              constantly strive to optimize solutions through my DSA expertise.
+              Developing robust applications using Java and Spring Boot is where
+              my skills truly shine, while effectively managing data with MySQL
+              is second nature to me.My unwavering commitment to continuous
+              growth fuels my passion. I am dedicated to expanding my knowledge
+              and skills, always seeking new opportunities to learn and improve.
+            </p>
+            <hr />
+          </div>
+          <div class="info">
+            <div>
+              <p><b>Name:</b> Satyam Jaiswal</p>
+              <p>
+                <b>Email:</b
+                ><a id="mail" href="mailto:satyamjaiswal91@gmail.com">
+                  satyamjaiswal91@gmail.com</a
+                >
+              </p>
+            </div>
+            <div>
+              <p><b>Address:</b> Gorakhpur, Uttar Pradesh</p>
+              <p>
+                <b>Phone:</b>
+                <a id="phone" href="tel:+91-8318876415">+91-8318876415</a>
+              </p>
+            </div>
+            <div id="follow">
+              <p id="contact">
+                <b>Contact me on:</b>
+                <i class="fa fa-facebook"></i>
+                <a href="https://www.linkedin.com/in/satyam-jais/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+                <a href="https://github.com/satyam1459" target="_blank"><i class="fa fa-github"></i></a>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+              </p>
+            </div>
+            <div>
+              <div class="link-h">
+                <a href="#" id="hire">Hire Me</a>
+                <a href="#" id="cv">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="qualifications">
+        <div class="education">
+          <h1>Educational Qualifications</h1>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Degree/Examination</th>
+              <th>Institution/Board</th>
+              <th>Percentage/CGPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2022</td>
+              <td>B.Tech</td>
+              <td>Uttar Pradesh Technical University</td>
+              <td>76.04%</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Diploma</td>
+              <td>Board of Technical Education, Lucknow</td>
+              <td>72.00%</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>Intermediate</td>
+              <td>Central Board of Secondary Education</td>
+              <td>72.08%</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>High School</td>
+              <td>Central Board of Secondary Education</td>
+              <td>89.03%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="skills">
+        <div class="skill">
+          <h1>Software Skills</h1>
+          <div class="card">
+            <div class="cardbody">
+              <img src="img/java.png" alt="" class="icon" />
+              <h3>Core Java</h3>
+            </div>
+            <div class="cardbody">
+              <img src="img/spring.png" alt="" class="icon" />
+              <h3>Spring Boot</h3>
+            </div>
+            <div class="cardbody">
+              <img src="img/mysql.png" alt="" class="icon" />
+              <h3>MySQL</h3>
+            </div>
+            <div class="cardbody">
+              <img src="img/git1.png" alt="" class="icon" />
+              <h3>Git</h3>
+            </div>
+            <div class="cardbody">
+              <img src="img/html.png" alt="" class="icon" />
+              <h3>HTML</h3>
+            </div>
+            <div class="cardbody">
+              <img src="img/css.png" alt="" class="icon" />
+              <h3>CSS</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; Satyam Jaiswal</p>
+    </footer>
+  </body>
+</html>
